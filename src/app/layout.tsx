@@ -1,5 +1,5 @@
 import "~/styles/globals.css";
-
+import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
 
 const inter = Inter({
@@ -15,10 +15,12 @@ export const metadata = {
 
 function TopNav() {
   return (
-    <nav className="flex w-full items-center justify-between border-b p-4 text-xl font-semibold">
-      <div>Gallery</div>
-      <div>Sign In</div>
-    </nav>
+    <ClerkProvider>
+      <nav className="flex w-full items-center justify-between border-b p-4 text-xl font-semibold">
+        <div>Gallery</div>
+        <div>Sign In</div>
+      </nav>
+    </ClerkProvider>
   );
 }
 
