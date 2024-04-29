@@ -25,6 +25,7 @@ export const images = createTable(
     name: varchar("name", { length: 256 }).notNull(),
     url: varchar("url", { length: 256 }).notNull(),
     userId: varchar("user_id", { length: 256 }).notNull(),
+
     createdAt: timestamp("created_at")
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
