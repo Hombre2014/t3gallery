@@ -18,7 +18,7 @@ The codebase from Theo's [T3 App Router Tutorial on YouTube](https://github.com/
 - [x] Update upload button to be less cringe
 - [x] Setup shadcn/ui
 - [x] Analytics (posthog)
-- [ ] Delete button (w/ Server Actions)
+- [x] Delete button (w/ Server Actions)
 - [ ] Ratelimiting (upstash)
 
 ## A challenge to the viewer
