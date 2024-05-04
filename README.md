@@ -19,7 +19,7 @@ The codebase from Theo's [T3 App Router Tutorial on YouTube](https://github.com/
 - [x] Setup shadcn/ui
 - [x] Analytics (posthog)
 - [x] Delete button (w/ Server Actions)
-- [ ] Ratelimiting (upstash)
+- [x] Ratelimiting (upstash)
 
 ## A challenge to the viewer
 
